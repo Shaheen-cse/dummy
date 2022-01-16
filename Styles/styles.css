@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Poppins', sans-serif; 
+    background-color: rgb(245, 247, 247);
+    
+}
+
+/* -------------------------------------------- */
+/* Working with Navigation-Ber */
+/* --------------------------------------- */
+#influencer{
+    margin-right: 430px;    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #f80959;
+}
+.navbar{
+    margin-top: 30px;
+    display: flex;
+    background-color: #0A0826;
+    width: 100%;
+    justify-content: flex-end;  
+    padding: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #ec0653;
+    margin-left: 34px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* -------------------------------------------- */
+/* Heading Section includes one image whith upper side navber. */
+/* --------------------------------------- */
+
+
+
+.header-materials{
+    display: flex;
+    justify-content: space-around;
+}
+.first-section{
+    width: 50%;
+    margin-left: 120px;
+    margin-right: 110px; 
+}
+
+.first-section img{
+    width: 107%;
+    
+
+}
+#button-prebook{
+    text-decoration: none;
+    background-image:linear-gradient(#E02C6D,rgb(207, 14, 14)) ;
+    padding: 10px 36px;
+    border-radius: 41px;
+    color: white;
+    font-weight: bold;
+    
+    
+}
+
+
+
+/* -------------------------------------------- */
+/* Horizontal line and logos and popular section*/
+/* --------------------------------------- */
+
+
+
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 120px
+}
+hr{
+    font-weight: 700px;
+    padding: 3px;
+    margin: 10px;
+    background-color: rgb(208, 171, 233);
+}
+
+
+
+
+#popular{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 100px;
+    color: rgb(49, 45, 173);
+    text-decoration: underline;
+    text-decoration-color:rgb(245, 18, 94);
+    text-decoration-style: dotted;
+}
+
+
+/* ================================================= */
+/* Products section */
+/* =================================================== */
+
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px 50px;
+    margin: 130px;
+ 
+
+}
+
+
+.product{
+    box-shadow: 0px 0px 7px;
+    padding: 15px 15px;
+    border-radius: 5px;
+    
+ 
+}
+
+.product .product-banner img{
+    height: 256px;
+    width: 300px;
+
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #aeaeae;
+}
+
+.product-info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #787885;
+
+}
+
+.product-extra{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Inter;
+    color: #787885;
+}
+
+.product-title{
+    font-weight: 500;
+    font-size: 28px;
+}
+.price{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+
+.see-more a{
+    text-decoration: none;
+    display: flex;
+    justify-content:flex-end;
+    color: #E02C6D;
+    margin-right: 145px;
+}
+
+
+
+/* extra section 
+ */
+
+#section-last{
+    display: flex;
+}
+.end-section{
+    width: 50%;
+    margin-left: 90px;
+    margin-right: 85px;
+    text-align: left;
+}
+
+.end-section img{
+    width:80%;
+    margin-left: 100px;
+}
+
+
+footer{
+    background-color: #0A0826;
+    text-align: center;
+    color: white;
+    margin: 50px;
+    padding: 10px;
+ 
+    }
+
+.social i{
+    margin: 5px;
+    color: wheat;
+   
+}
+
+#last-p{
+    font-size: 14px;
+    font-family: Manrope;
+}
+
+
+
+
+
+/* =================================== */
+
+
+
+
